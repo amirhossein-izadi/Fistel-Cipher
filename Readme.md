@@ -12,6 +12,7 @@ Innovative Fistel Cipher (IFC) is a symmetric key encryption algorithm. This rep
   - [Key Generation](#key-generation)
   - [Final Permutation](#final-permutation)
 - [Images](#images)
+- [simple example](#example)
 
 ## Overview
 
@@ -26,6 +27,25 @@ To run the encryption, you can use the following command:
 ```bash
 python IFC.py
 ```
+
+
+---
+
+## example
+also we can see a usage  
+```python
+  ifc = IFC(master_key=''.join(random.choice('01') for _ in range(256)))
+    en = ifc.encrypt('Amirhossein-Izadi')
+
+    # Convert binary string to hexadecimal
+    en_hex = hex(int(en, 2))[2:]
+    print('encrypted:', en_hex)
+```
+the output is (in hexadecimal) :
+```bash
+encrypted: 39f65de1ec4ea484aa53de32d779e48c0cfa0c72c544f65be62d8c376dee633d
+```
+---
 
 ## Details of the Algorithm
 
@@ -65,18 +85,5 @@ Here are the diagrams illustrating the IFC algorithm and its components:
 [Key Generation Round](https://github.com/amirhossein-izadi/Fistel-Cipher/tree/master/images/key-gen-round.png)
 
 
----
-also we can see a usage  
-```python
-  ifc = IFC(master_key=''.join(random.choice('01') for _ in range(256)))
-    en = ifc.encrypt('Amirhossein-Izadi')
 
-    # Convert binary string to hexadecimal
-    en_hex = hex(int(en, 2))[2:]
-    print('encrypted:', en_hex)
-```
-the output is (in hexadecimal) :
-```bash
-encrypted: 39f65de1ec4ea484aa53de32d779e48c0cfa0c72c544f65be62d8c376dee633d
-```
 
