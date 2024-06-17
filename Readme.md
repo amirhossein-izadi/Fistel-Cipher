@@ -5,7 +5,6 @@ Innovative Fistel Cipher (IFC) is a symmetric key encryption algorithm. This rep
 ## Table of Contents
 
 - [Overview](#overview)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Details of the Algorithm](#details-of-the-algorithm)
   - [Initial Permutation](#initial-permutation)
@@ -18,13 +17,7 @@ Innovative Fistel Cipher (IFC) is a symmetric key encryption algorithm. This rep
 
 IFC is designed to provide secure encryption through multiple rounds of permutation and substitution, using a master key to generate round keys. The algorithm follows the structure of a Fistel network.
 
-## Installation
 
-To install the necessary dependencies, you can use:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Usage
 
