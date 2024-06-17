@@ -1,4 +1,3 @@
-```markdown
 # Innovative Fistel Cipher (IFC)
 
 Innovative Fistel Cipher (IFC) is a symmetric key encryption algorithm. This repository contains the implementation of the IFC algorithm in Python.
