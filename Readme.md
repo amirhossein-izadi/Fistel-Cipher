@@ -46,20 +46,19 @@ The master key is used to generate 32 round keys through a series of shifts and 
 The final permutation combines the left and right halves after 16 rounds to produce the encrypted output.
 
 ## Images
-
 Here are the diagrams illustrating the IFC algorithm and its components:
 
 ### IFC Algorithm Overview
 
-![](https://github.com/amirhossein-izadi/Fistel-Cipher/tree/master/images/IFC.png)
+![IFC](https://github.com/amirhossein-izadi/Fistel-Cipher/tree/master/images/IFC.png)
 
 ### IFC Round Function
 
-[IFC Round](https://github.com/amirhossein-izadi/Fistel-Cipher/tree/master/images/IFC-round.png)
+![IFC Round](https://github.com/amirhossein-izadi/Fistel-Cipher/tree/master/images/IFC-round.png)
 
 ### Key Generation
 
-[Key Generation](https://github.com/amirhossein-izadi/Fistel-Cipher/tree/master/images/key-gen.png)
+![Key Generation](https://github.com/amirhossein-izadi/Fistel-Cipher/tree/master/images/key-gen.png)
 
 ### Key Generation Round
 
