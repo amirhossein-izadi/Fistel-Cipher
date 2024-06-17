@@ -64,4 +64,5 @@ Here are the diagrams illustrating the IFC algorithm and its components:
 ### Key Generation Round
 
 ![Key Generation Round](https://github.com/amirhossein-izadi/Fistel-Cipher/tree/master/images/key-gen-round.png)
-```
+
+
