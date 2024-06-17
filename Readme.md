@@ -51,15 +51,15 @@ Here are the diagrams illustrating the IFC algorithm and its components:
 
 ### IFC Algorithm Overview
 
-![IFC](https://github.com/amirhossein-izadi/Fistel-Cipher/tree/master/images/IFC.png)
+[IFC](https://github.com/amirhossein-izadi/Fistel-Cipher/tree/master/images/IFC.png)
 
 ### IFC Round Function
 
-![IFC Round](https://github.com/amirhossein-izadi/Fistel-Cipher/tree/master/images/IFC-round.png)
+[IFC Round](https://github.com/amirhossein-izadi/Fistel-Cipher/tree/master/images/IFC-round.png)
 
 ### Key Generation
 
-![Key Generation](https://github.com/amirhossein-izadi/Fistel-Cipher/tree/master/images/key-gen.png)
+[Key Generation](https://github.com/amirhossein-izadi/Fistel-Cipher/tree/master/images/key-gen.png)
 
 ### Key Generation Round
 
